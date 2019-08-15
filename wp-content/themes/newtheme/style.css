@@ -7,7 +7,7 @@ body {
   background-color: rgb(255, 255, 188);
 }
 header {
-  background-color: gray;
+  background-color: rgb(196, 134, 134);
   width: 100%;
   height: 100px;
   margin-top: -50px;
@@ -22,7 +22,7 @@ a {
 }
 .heading {
   text-align: justify;
-  color: gray;
+  color: rgb(109, 63, 63);
   font-family: "Playfair Display", serif;
   font-weight: bold;
   margin-top: 50px;

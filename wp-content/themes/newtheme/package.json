@@ -1,0 +1,18 @@
+{
+  "name": "mytheme",
+  "version": "1.0.0",
+  "description": "\"developing a wordpress theme\"",
+  "main": "index.php
+  ",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"github.com/Carol-5/myWordPressTheme\""
+  },
+  "author": "\"Carol L\"",
+  "license": "ISC"
+}

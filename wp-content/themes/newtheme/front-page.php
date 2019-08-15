@@ -4,18 +4,20 @@
   <h1 class="heading"> <?php the_title(); ?></h1>
   <!-- add featured image -->
   <?php if (has_post_thumbnail()) : ?>
-    <img src=<?php the_post_thumbnail_url("largest"); ?> class="img-fluid style_image">
+  <img src=<?php the_post_thumbnail_url("largest"); ?> class="img-fluid style_image">
   <?php endif; ?>
   <?php (have_posts()); ?>
   <div>
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <!-- Display Post Content -->
-
-        <?php (the_content()); ?>
-
-      <?php endwhile;
+    <!-- Display Post Content -->
+    <?php (the_content()); ?>
+  <?php endwhile;
     endif; ?>
   </div>
+
+   
+
+    
   <div id=”test-content”>
 
   </div>
@@ -24,15 +26,28 @@
 
 <div class="row">
   <div class="col">
-  
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+
+
+  <div class="col">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
 
   </div>
-</div>
-
-</div>
-<div class="col">
-
-</div>
+  
 </div>
 
 
